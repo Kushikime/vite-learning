@@ -10,6 +10,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb-typescript',
     'plugin:react/jsx-runtime',
+    'plugin:prettier/recommended',
   ],
   overrides: [
     {
@@ -28,7 +29,7 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'prettier'],
   rules: {},
   'jsx-runtime': {
     plugins: ['react'],
